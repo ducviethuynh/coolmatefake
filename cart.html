@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Giỏ hàng</title>
+		<link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet" />
+		<link rel="stylesheet" href="./assets/css/remixicon.css" />
+		<link rel="stylesheet" href="./assets/css/style.css" />
+	</head>
+	<body>
+		<!-- header -->
+		<header id="header">
+			<div class="container">
+				<div class="row-flex">
+					<div class="header-bar-icon">
+						<i class="ri-menu-line"></i>
+					</div>
+
+					<div class="header-logo header-logo-mobile">
+						<a href="#">
+							<img src="./assets//img/logo-coolmate-new.svg" alt="AppleStore" />
+						</a>
+					</div>
+
+					<div class="header-nav">
+						<nav>
+							<ul>
+								<li><a href="">sản phẩm</a></li>
+								<li><a href="">đồ lót</a></li>
+								<li><a href="">đồ thể thao</a></li>
+								<li><a href="">mặc hằng ngày</a></li>
+								<li><a href="">nước hoa</a></li>
+								<li><a href="">sản xuất riêng</a></li>
+								<li><a href="">care&share</a></li>
+							</ul>
+						</nav>
+					</div>
+
+					<div class="header-search">
+						<form action="">
+							<input type="search" name="search" id="" placeholder="Tìm kiếm" />
+							<i class="ri-search-line"></i>
+						</form>
+					</div>
+
+					<div class="header-cart">
+						<a href="#">
+							<i class="ri-shopping-cart-line"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- end header -->
+
+		<div class="cart-section">
+			<div class="container">
+				<div class="">
+					<a href="index.html" class="breadcumb">Trang chủ</a> /
+					<a class="breadcumb breadcumb-active" href="">Giỏ hàng</a>
+				</div>
+
+
+				<div class="row-grid">
+					<div class="cart-section-left">
+						<h2 class="main-h2">Chi tiết đơn hàng</h2>
+
+						<div class="cart-section-left-detail">
+							<table>
+								<thead>
+									<tr>
+										<th>Ảnh</th>
+										<th>Tên sản phẩm</th>
+										<th>Số lượng</th>
+										<th>Thành tiền</th>
+										<th>Hành động</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td><img class="cart-img" src="./assets/img/macbookpro.jpg" alt="" /></td>
+										<td class="cart-product-name">Macbook Pro 16 2021 M1 Pro/16GB/1TB SSD Bạc MK1F3SA/A</td>
+										<td class="cart-qty">
+											<div class="product-detail-right-input">
+												<i class="ri-subtract-fill"></i>
+												<input type="text" name="" id="" value="1" />
+												<i class="ri-add-line"></i>
+											</div>
+										</td>
+										<td>69.000.000</td>
+										<td class="cart-action">
+											<a href=""><i class="ri-delete-bin-2-line"></i></a>
+										</td>
+									</tr>
+
+									<tr>
+										<td><img class="cart-img" src="./assets/img/macbookpro.jpg" alt="" /></td>
+										<td class="cart-product-name">Macbook Pro 16 2021 M1 Pro/16GB/1TB SSD Bạc MK1F3SA/A</td>
+										<td class="cart-qty">
+											<div class="product-detail-right-input">
+												<i class="ri-subtract-fill"></i>
+												<input type="text" name="" id="" value="1" />
+												<i class="ri-add-line"></i>
+											</div>
+										</td>
+										<td>69.000.000</td>
+										<td class="cart-action">
+											<a href=""><i class="ri-delete-bin-2-line"></i></a>
+										</td>
+									</tr>
+
+									<tr>
+										<td><img class="cart-img" src="./assets/img/macbookpro.jpg" alt="" /></td>
+										<td class="cart-product-name">Macbook Pro 16 2021 M1 Pro/16GB/1TB SSD Bạc MK1F3SA/A</td>
+										<td class="cart-qty">
+											<div class="product-detail-right-input">
+												<i class="ri-subtract-fill"></i>
+												<input type="text" name="" id="" value="1" />
+												<i class="ri-add-line"></i>
+											</div>
+										</td>
+										<td>69.000.000</td>
+										<td class="cart-action">
+											<a href=""><i class="ri-delete-bin-2-line"></i></a>
+										</td>
+									</tr>
+
+									<tr>
+										<td class="cart-total" colspan="2">Tổng tiền</td>
+										<td class="cart-total-price" colspan="2">69.000.000</td>
+									</tr>
+								</tbody>
+							</table>
+							<div style="margin-bottom: 20px">
+								<button class="btn-cart" type="submit">Cập nhật giỏ hàng</button>
+								<a href="#" style="color: blue">Tiếp tục mua hàng</a>
+							</div>
+						</div>
+					</div>
+					<div class="cart-section-right">
+						<h2 class="main-h2">Thông tin giao hàng</h2>
+
+						<form action="">
+							<div class="cart-section-right-input-name-phone">
+								<input type="text" name="name" id="" placeholder="Họ và tên" />
+								<input type="text" name="phone" id="" placeholder="Số điện thoại" />
+							</div>
+							<div class="cart-section-right-input-email">
+								<input type="text" name="email" placeholder="Email" />
+							</div>
+							<div class="cart-section-right-select">
+								<select name="province" id="city">
+									<option value="" disabled selected>Chọn Tỉnh/Thành phố</option>
+								</select>
+								<select name="ward" id="district">
+									<option value="" disabled selected>Chọn Quận/Huyện</option>
+								</select>
+								<select name="district" id="ward">
+									<option value="" disabled selected>Chọn Phường/Xã</option>
+								</select>
+							</div>
+							<div class="cart-section-right-address">
+								<input type="text" name="address" placeholder="Địa chỉ" />
+							</div>
+							<div class="cart-section-right-note">
+								<input type="text" name="note" placeholder="Ghi chú" />
+							</div>
+
+							<button type="submit" class="btn-cart">Gửi yêu cầu</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- footer -->
+		<footer>
+			<div class="container">
+				<div class="row-grid">
+					<div class="footer-item">
+						<p class="footer-item-title">COOLCLUB</p>
+						<ul>
+							<li>
+								<a href="#">Đăng kí thành viên</a>
+							</li>
+							<li>
+								<a href="#">Ưu đãi và đặc quyền</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer-item">
+						<p class="footer-item-title">CHÍNH SÁCH</p>
+						<ul>
+							<li><a href="#">Chính sách đổi trả 60 ngày</a></li>
+							<li><a href="#">Chính sách khuyến mãi</a></li>
+							<li><a href="#">Chính sách bảo mật</a></li>
+							<li><a href="#">Chính sách giao hàng</a></li>
+						</ul>
+
+						<p class="footer-item-title">COOLMATE</p>
+						<ul>
+							<li><a href="#">Lịch sử thay đổi website</a></li>
+						</ul>
+					</div>
+					<div class="footer-item">
+						<p class="footer-item-title">CHĂM SÓC KHÁCH HÀNG</p>
+						<ul>
+							<li><a href="#">Trải nghiệm mua sắm 100% hài lòng</a></li>
+							<li><a href="#">Hỏi đáp - FAQs</a></li>
+						</ul>
+
+						<p class="footer-item-title">KIẾN THỨC MẶC ĐẸP</p>
+						<ul>
+							<li><a href="#">Hướng dẫn chọn size</a></li>
+							<li><a href="#">Blog</a></li>
+							<li><a href="#">Group mặc đẹp sống chất</a></li>
+						</ul>
+					</div>
+					<div class="footer-item">
+						<p class="footer-item-title">TÀI LIỆU-TUYỂN DỤNG</p>
+						<ul>
+							<li><a href="#">Tuyển dụng</a></li>
+							<li><a href="#">Đăng kí bản quyền</a></li>
+						</ul>
+
+						<p class="footer-item-title">VỀ COOLMATE</p>
+						<ul>
+							<li><a href="#">Coolmate 101</a></li>
+							<li><a href="#">DVKH xuất sắc</a></li>
+							<li><a href="#">Câu chuyện về Coolmate</a></li>
+							<li><a href="#">Nhà máy</a></li>
+							<li><a href="#">Care & Share</a></li>
+						</ul>
+					</div>
+					<div class="footer-item">
+						<p class="footer-item-title">ĐỊA CHỈ LIÊN HỆ</p>
+						<p class="footer-item-address">Văn phòng Hà Nội: Tầng 3-4, Tòa nhà BMM, KM2, Đường Phùng Hưng, Phường Phúc La, Quận Hà Đông, TP Hà Nội</p>
+						<p class="footer-item-address">Văn phòng Tp HCM: Lầu 1, Số 163 Trần Trọng Cung, Phường Tân Thuận Đông, Quận 7, Tp. Hồ Chí Minh</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- end footer -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+		<script src="./assets/js/script.js"></script>
+		<script src="./assets/js/apiprovince.js"></script>
+	</body>
+</html>
